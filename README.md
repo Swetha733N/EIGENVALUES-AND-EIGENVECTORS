@@ -15,6 +15,7 @@ Prepare  the lists from each equations and assign in np.array()
 End the program
 
 ## Program:
+
 ```
 #Program to find the eigen values and eigen vectors.
 #Developed by:N.Swetha
@@ -25,6 +26,7 @@ evalues,evector=np.linalg.eig(A)S
 print("Eigen values are {} and Eigen Vectors are {}".format(evalues,evector))
 ```
 ## Output:
+
 ![output](./eigenvector.png)
 
 ## Result:
