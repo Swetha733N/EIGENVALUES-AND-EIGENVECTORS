@@ -15,6 +15,7 @@ Prepare  the lists from each equations and assign in np.array()
 End the program
 
 ## Program:
+```
 #Program to find the eigen values and eigen vectors.
 #Developed by:N.Swetha
 #RegisterNumber:212222110050
@@ -22,10 +23,10 @@ import numpy as np
 A=np.array(([2,2],[1,3]))
 evalues,evector=np.linalg.eig(A)
 print("Eigen values are {} and Eigen Vectors are {}".format(evalues,evector))
-
-
+```
 ## Output:
-![output](/LICENSEeigenvector.png)
+
+![output](eigenvector.png)
 
 ## Result:
 Thus the Eigenvalue and Eigenvector is successfully solved using python program
