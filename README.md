@@ -21,12 +21,11 @@ End the program
 #RegisterNumber:212222110050
 import numpy as np
 A=np.array(([2,2],[1,3]))
-evalues,evector=np.linalg.eig(A)
+evalues,evector=np.linalg.eig(A)S
 print("Eigen values are {} and Eigen Vectors are {}".format(evalues,evector))
 ```
 ## Output:
-
-![output](eigenvector.png)
+![output](./eigenvector.png)
 
 ## Result:
 Thus the Eigenvalue and Eigenvector is successfully solved using python program
